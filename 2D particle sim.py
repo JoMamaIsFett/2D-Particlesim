@@ -12,14 +12,18 @@ running = True
 width = screen.get_width()
 height = screen.get_height()
 
+#You can change these values
+
 fps = 60
 density = 100
 angle_exclude_size = 2 / 3 * math.pi
 strength_multiplier = 0.0005
 max_vel = 1
-particle_number = 100
+particle_number = 1000
 noise = 100
 reset_time = 20
+
+#don't change these variables
 
 vector_list = []
 particle_list = []
